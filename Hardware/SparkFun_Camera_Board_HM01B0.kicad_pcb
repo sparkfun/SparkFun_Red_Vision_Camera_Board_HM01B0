@@ -8663,7 +8663,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "SEN-25501"
+		(property "PROD_ID" "SEN-25897"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
