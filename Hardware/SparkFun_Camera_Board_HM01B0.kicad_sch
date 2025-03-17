@@ -7852,6 +7852,16 @@
 		)
 		(uuid "205106db-7cda-4543-9978-426db18a9fa0")
 	)
+	(text "VAdj is relative to VOUT!"
+		(exclude_from_sim no)
+		(at 146.05 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2d4ab4ef-c129-4f5b-b679-76df3bb11132")
+	)
 	(text "Camera - HM01B0"
 		(exclude_from_sim no)
 		(at 52.07 15.24 0)
@@ -7931,6 +7941,16 @@
 			)
 		)
 		(uuid "84c485fc-4744-4e4d-99b0-382455f55cf1")
+	)
+	(text "VAdj is relative to VOUT!"
+		(exclude_from_sim no)
+		(at 147.32 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "90aafd9c-0038-407f-9151-f157d41a851e")
 	)
 	(text "Power LED"
 		(exclude_from_sim no)
@@ -9500,7 +9520,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Resistor:200k_0603")
+		(lib_id "SparkFun-Resistor:150k_0603")
 		(at 142.24 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9517,7 +9537,7 @@
 				)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "150k"
 			(at 142.24 146.05 0)
 			(effects
 				(font
@@ -9552,7 +9572,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "RES-09385"
+		(property "PROD_ID" "RES-09117"
 			(at 142.24 156.718 0)
 			(effects
 				(font
@@ -11084,7 +11104,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Resistor:100k_0603")
+		(lib_id "SparkFun-Resistor:22k_0603")
 		(at 137.16 190.5 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11102,7 +11122,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "22k"
 			(at 139.7 191.7699 90)
 			(effects
 				(font
@@ -11112,7 +11132,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
-			(at 141.478 190.5 0)
+			(at 141.732 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11138,8 +11158,8 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "RES-07828"
-			(at 143.51 190.5 0)
+		(property "PROD_ID" "RES-07853"
+			(at 144.018 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11243,7 +11263,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Resistor:22k_0603")
+		(lib_id "SparkFun-Resistor:100k_0603")
 		(at 142.24 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11260,7 +11280,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "100k"
 			(at 142.24 181.61 0)
 			(effects
 				(font
@@ -11269,7 +11289,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
-			(at 142.24 189.992 0)
+			(at 142.24 189.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11295,8 +11315,8 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "RES-07853"
-			(at 142.24 192.278 0)
+		(property "PROD_ID" "RES-07828"
+			(at 142.24 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11800,7 +11820,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Resistor:150k_0603")
+		(lib_id "SparkFun-Resistor:200k_0603")
 		(at 137.16 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11818,7 +11838,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "200k"
 			(at 139.7 156.2099 90)
 			(effects
 				(font
@@ -11854,7 +11874,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "RES-09117"
+		(property "PROD_ID" "RES-09385"
 			(at 144.018 154.94 0)
 			(effects
 				(font

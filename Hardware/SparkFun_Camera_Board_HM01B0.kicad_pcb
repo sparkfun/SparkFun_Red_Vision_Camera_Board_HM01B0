@@ -1891,7 +1891,7 @@
 				)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "150k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "dbd2b524-06a5-40cb-afd0-3b8866e7edd4")
@@ -1942,7 +1942,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-09385"
+		(property "PROD_ID" "RES-09117"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3409,7 +3409,7 @@
 				)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "200k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "2efc8e40-c739-43e2-9ea5-d1c204a1d7a1")
@@ -3460,7 +3460,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-09117"
+		(property "PROD_ID" "RES-09385"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3955,7 +3955,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "22k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "b09554a4-aa70-4a10-abf4-73469a434c82")
@@ -4006,7 +4006,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-07828"
+		(property "PROD_ID" "RES-07853"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11574,7 +11574,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "100k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "ceed2a30-cb86-4b3e-bffa-ac5abca16dac")
@@ -11625,7 +11625,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-07853"
+		(property "PROD_ID" "RES-07828"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
