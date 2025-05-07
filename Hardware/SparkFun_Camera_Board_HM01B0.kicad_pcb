@@ -9,8 +9,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "SparkFun Camera Board - HM01B0")
-		(date "2025-03-12")
-		(rev "v01")
+		(date "2025-05-07")
+		(rev "v10")
 		(company "SparkFun Electronics")
 		(comment 1 "Designed by: Dryw Wade")
 	)
@@ -6180,7 +6180,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "SparkFun resistor")
 		(property "Reference" "R7"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.Fab")
 			(uuid "7288e484-32cc-4412-bec7-6c874fec2ac4")
 			(effects
@@ -6192,7 +6192,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d30c558b-5806-4d47-a34a-81ca0df71fc0")
 			(effects
@@ -8016,7 +8016,7 @@
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiTGVmdCIsICJDYXBMZWZ0Q2hvaWNlIjogIiIsICJDYXBSaWdodENob2ljZSI6ICIiLCAiRm9udENvbWJvQm94IjogIkZyZWRkeVNwYXJrLVJlZ3VsYXIiLCAiSGVpZ2h0Q3RybCI6IDAuOCwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJMaW5lU3BhY2luZ0N0cmwiOiAxLjUsICJNdWx0aUxpbmVUZXh0IjogIlBXUiIsICJQYWRkaW5nQm90dG9tQ3RybCI6IDIuMCwgIlBhZGRpbmdMZWZ0Q3RybCI6IDIuMCwgIlBhZGRpbmdSaWdodEN0cmwiOiAyLjAsICJQYWRkaW5nVG9wQ3RybCI6IDIuMCwgIldpZHRoQ3RybCI6IDAuMCwgImFkdmFuY2VkQ2hlY2tib3giOiBmYWxzZSwgImlubGluZUZvcm1hdFRleHRib3giOiBmYWxzZSwgImxpbmVvdmVyU3R5bGVDaG9pY2UiOiAiU3F1YXJlIiwgImxpbmVvdmVyVGhpY2tuZXNzQ3RybCI6IDF9")
 		(property "Reference" "kibuzzard-67D21B41"
-			(at 0 -3.459445 360)
+			(at 0 -3.459445 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f12a31f0-860a-497b-95b7-f671bd6b414b")
@@ -8028,7 +8028,7 @@
 			)
 		)
 		(property "Value" "G***"
-			(at 0 3.459445 360)
+			(at 0 3.459445 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ab5d39e9-00d3-4222-b3f8-f83c1d51d081")
@@ -8040,7 +8040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cdfd82ff-b211-4096-a10e-bd5f036e3122")
@@ -8052,7 +8052,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "19bf49ab-6f0a-4522-91a2-6652d63d4e46")
@@ -8064,7 +8064,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "11e7b8ec-70a6-4f3a-b8ff-ff2d719d8937")
@@ -10422,7 +10422,7 @@
 		(at 119.0625 99.06)
 		(tags "SparkFun LED")
 		(property "Reference" "D1"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.Fab")
 			(uuid "d3158b02-423d-4e71-8785-f5017dca20e9")
 			(effects
@@ -10433,7 +10433,7 @@
 			)
 		)
 		(property "Value" "Red"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "2eee6f9c-fed7-475b-9c83-74b16e1b69aa")
 			(effects
@@ -15626,6 +15626,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -15638,6 +15639,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -19566,6 +19568,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -19578,6 +19581,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -19906,7 +19910,7 @@
 		(layer "Edge.Cuts")
 		(uuid "19d9314d-002e-437e-ab5a-302b507126e2")
 	)
-	(gr_text "v01"
+	(gr_text "v10"
 		(at 137.414 94.488 90)
 		(layer "B.Cu" knockout)
 		(uuid "3c322aac-72fa-464e-a60f-a1d3fef083b6")
@@ -23561,7 +23565,7 @@
 				(xy 116.233766 106.254776) (xy 116.233767 106.254777) (xy 116.312723 106.333733) (xy 116.412214 106.384426)
 				(xy 116.412217 106.384427) (xy 116.522497 106.401894) (xy 116.5225 106.401894) (xy 116.522501 106.401894)
 				(xy 116.535287 106.399868) (xy 116.565958 106.39501) (xy 116.612472 106.406176) (xy 116.619931 106.412546)
-				(xy 116.729307 106.521922) (xy 116.799508 106.551) (xy 116.875492 106.551) (xy 116.9724 106.551)
+				(xy 116.675578 106.468193) (xy 116.729307 106.521922) (xy 116.799508 106.551) (xy 116.9724 106.551)
 				(xy 117.016594 106.569306) (xy 117.0349 106.6135) (xy 117.0349 106.647558) (xy 117.041353 106.679996)
 				(xy 117.042298 106.684748) (xy 117.042298 106.684749) (xy 117.070477 106.726922) (xy 117.092743 106.741799)
 				(xy 117.112652 106.755102) (xy 117.149842 106.7625) (xy 117.416497 106.7625) (xy 117.460691 106.780806)
@@ -25625,9 +25629,9 @@
 				(xy 120.541805 96.993079) (xy 120.488077 97.046808) (xy 116.405516 101.129368) (xy 116.405515 101.129368)
 				(xy 116.405516 101.129369) (xy 116.360577 101.174308) (xy 116.3315 101.244508) (xy 116.3315 105.711602)
 				(xy 116.313194 105.755796) (xy 116.233766 105.835223) (xy 116.183074 105.934712) (xy 116.183072 105.934717)
-				(xy 116.165606 106.044996) (xy 115.8245 106.044996) (xy 115.8245 95.620125) (xy 136.806505 95.620125)
-				(xy 137.931111 95.620125) (xy 137.931111 93.312588) (xy 136.806505 93.312588) (xy 136.806505 95.620125)
-				(xy 115.8245 95.620125) (xy 115.8245 93.809873) (xy 115.842806 93.765679) (xy 115.887 93.747373)
+				(xy 116.165606 106.044996) (xy 115.8245 106.044996) (xy 115.8245 95.622114) (xy 136.806505 95.622114)
+				(xy 137.931111 95.622114) (xy 137.931111 93.312588) (xy 136.806505 93.312588) (xy 136.806505 95.622114)
+				(xy 115.8245 95.622114) (xy 115.8245 93.809873) (xy 115.842806 93.765679) (xy 115.887 93.747373)
 				(xy 115.920789 93.757294) (xy 115.994947 93.804953) (xy 116.133036 93.845499) (xy 116.133038 93.8455)
 				(xy 116.133039 93.8455) (xy 116.276962 93.8455) (xy 116.276962 93.845499) (xy 116.415053 93.804953)
 				(xy 116.536128 93.727143) (xy 116.630377 93.618373) (xy 116.690165 93.487457) (xy 116.710647 93.345)
