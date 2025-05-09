@@ -7086,7 +7086,7 @@
 		)
 		(uuid "fec03177-ca1b-49f4-8fcc-8adfd3f00070")
 	)
-	(text "Connect MCLK to only 1 at\na time, otherwise undefined\nbehavior or damage may occur"
+	(text "Connect XCLK to only 1 at\na time, otherwise undefined\nbehavior or damage may occur"
 		(exclude_from_sim no)
 		(at 245.11 102.87 0)
 		(effects
@@ -7236,7 +7236,7 @@
 		)
 		(uuid "90b84809-2d7c-4e0a-8ae6-7b968e26d60a")
 	)
-	(text "MCLK Generator and Selection"
+	(text "XCLK Generator and Selection"
 		(exclude_from_sim no)
 		(at 215.9 74.93 0)
 		(effects
@@ -7256,7 +7256,7 @@
 		)
 		(uuid "c1f00c3f-de36-43d6-94ad-ff0a1e682f3c")
 	)
-	(text "MCLK PTH Pad"
+	(text "XCLK PTH Pad"
 		(exclude_from_sim no)
 		(at 233.68 113.03 0)
 		(effects
@@ -7374,7 +7374,7 @@
 			)
 		)
 	)
-	(global_label "CAM_MCLK"
+	(global_label "CAM_XCLK"
 		(shape input)
 		(at 63.5 63.5 0)
 		(fields_autoplaced yes)
@@ -7528,7 +7528,7 @@
 			)
 		)
 	)
-	(global_label "MCLK"
+	(global_label "XCLK"
 		(shape input)
 		(at 243.84 40.64 0)
 		(fields_autoplaced yes)
@@ -7682,7 +7682,7 @@
 			)
 		)
 	)
-	(global_label "MCLK"
+	(global_label "XCLK"
 		(shape input)
 		(at 215.9 40.64 0)
 		(fields_autoplaced yes)
@@ -7726,7 +7726,7 @@
 			)
 		)
 	)
-	(global_label "CAM_MCLK"
+	(global_label "CAM_XCLK"
 		(shape input)
 		(at 228.6 91.44 0)
 		(fields_autoplaced yes)
@@ -8232,7 +8232,7 @@
 			)
 		)
 	)
-	(global_label "MCLK"
+	(global_label "XCLK"
 		(shape input)
 		(at 223.52 86.36 0)
 		(fields_autoplaced yes)
@@ -10945,7 +10945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "MCLK"
+		(property "Value" "XCLK"
 			(at 217.17 91.44 90)
 			(effects
 				(font
@@ -11481,7 +11481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "MCLK_GND"
+		(property "Value" "XCLK_GND"
 			(at 228.6 96.52 90)
 			(effects
 				(font
