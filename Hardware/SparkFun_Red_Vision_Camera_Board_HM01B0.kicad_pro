@@ -59,11 +59,26 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|116742580|93851320|4221fb86-1bcd-4498-aca1-19e07ce25b83|4399644c-c42f-4f1c-89b5-c6d997656181",
-        "courtyards_overlap|124370000|103300000|72934e52-6b73-4c17-8b23-dce8a785166b|a9e18233-be08-45ee-bdd3-d219266f90e5",
-        "courtyards_overlap|127910537|103300000|a9e18233-be08-45ee-bdd3-d219266f90e5|ba4264f3-79ad-480d-92b1-4ec7de3ce199",
-        "courtyards_overlap|129450000|103300000|a9e18233-be08-45ee-bdd3-d219266f90e5|b772d589-588c-4719-9bb7-9f5a418ef0dc",
-        "courtyards_overlap|129995501|107725000|05365155-86c6-41d6-9e01-e3fc2ddc90ce|a9e18233-be08-45ee-bdd3-d219266f90e5"
+        [
+          "courtyards_overlap|116742580|93851320|4221fb86-1bcd-4498-aca1-19e07ce25b83|4399644c-c42f-4f1c-89b5-c6d997656181",
+          ""
+        ],
+        [
+          "courtyards_overlap|124370000|103300000|72934e52-6b73-4c17-8b23-dce8a785166b|a9e18233-be08-45ee-bdd3-d219266f90e5",
+          ""
+        ],
+        [
+          "courtyards_overlap|127910537|103300000|a9e18233-be08-45ee-bdd3-d219266f90e5|ba4264f3-79ad-480d-92b1-4ec7de3ce199",
+          ""
+        ],
+        [
+          "courtyards_overlap|129450000|103300000|a9e18233-be08-45ee-bdd3-d219266f90e5|b772d589-588c-4719-9bb7-9f5a418ef0dc",
+          ""
+        ],
+        [
+          "courtyards_overlap|129995501|107725000|05365155-86c6-41d6-9e01-e3fc2ddc90ce|a9e18233-be08-45ee-bdd3-d219266f90e5",
+          ""
+        ]
       ],
       "meta": {
         "version": 2
@@ -114,6 +129,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -152,10 +168,11 @@
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
@@ -439,10 +456,15 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -455,9 +477,15 @@
       "pin_not_driven": "error",
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -468,8 +496,8 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SparkFun_Camera_Board_HM01B0.kicad_pro",
-    "version": 1
+    "filename": "SparkFun_Red_Vision_Camera_Board_HM01B0.kicad_pro",
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -484,6 +512,7 @@
         "microvia_drill": 0.1524,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.45,
@@ -492,7 +521,7 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -568,6 +597,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
+      "include_excluded_from_bom": false,
       "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -602,6 +632,7 @@
     "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
